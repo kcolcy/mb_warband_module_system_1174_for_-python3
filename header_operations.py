@@ -1424,11 +1424,6 @@ face_keys_set_skin_color              = 2765 # (face_keys_set_skin_color, <strin
 face_keys_get_morph_key               = 2766 # (face_keys_get_morph_key, <destination>, <string_no>, <key_no>), #Stores face key's morph key value (0-7) into <destination>
 face_keys_set_morph_key               = 2767 # (face_keys_set_morph_key, <string_no>, <key_no>, <value>), #Sets face key's morph key value (0-7)
 
-op_2749                               = 2749
-agent_set_can_multihit                = 3353 #(agent_set_can_multihit, <agent_no>, <value>, [<max_targets>]), #Enables or disables <agent_no>'s  melee attacks to hit multiple enemies in a single swing, applying damage to every valid target intersecting the weapon's hitbox. Each target is hit at most once per swing. Attacks can still be blocked. If the agent is using a crush-through-block weapon, the swing will bypass blocks under the normal crush-through rules and continue past blocked defenders. Optional [<max_targets>] caps the number of distinct agents that can be damaged in a single swing (0 = unlimited, default). Must be set on the server side in multiplayer. (requires WSE2)
-agent_set_crush_through               = 3355 #(agent_set_crush_through, <agent_no>, <value>), #Makes all <agent_no>'s attacks function like itp_crush_through if <value> set to 1, like itp_crush_through_any_direction if <value> set to 2, else native functionality. (requires WSE2)
-agent_set_can_piercing                = 3359 #(agent_set_can_piercing, <agent_no>, <value>, [<max_targets>]), #Enables or disables <agent_no>'s ranged projectiles (arrows, bolts, thrown weapons) to pierce through enemies instead of stopping on the first hit. Each agent is hit at most once per projectile. Shield blocks, friendly hits, scene geometry and mission objects still stop the projectile. Optional [<max_targets>] caps the number of distinct agents (including horses) that a single projectile can damage (0 = unlimited, default). Must be set on the server side in multiplayer. (requires WSE2)
-
 
 #-------------------------------------------
 
