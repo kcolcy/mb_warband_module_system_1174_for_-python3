@@ -3,7 +3,7 @@
 [![Python 3.8+](https://img.shields.io/badge/python-3.8%2B-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-本项目是 **《骑马与砍杀：战团》**（Mount & Blade: Warband）官方 **Module System** 的完整 Python 3 移植版本。查看/下载仓库点 [这里。](https://gitee.com/james_009/mb_warband_module_system_1174_for_-python3.git)
+本项目是 **《骑马与砍杀：战团》**（Mount & Blade: Warband）官方 **Module System 1171** 的完整 Python 3 移植版本。查看/下载仓库点 [这里。](https://github.com/kcolcy/mb_warband_module_system_1174_for_-python3)
 原版 Module System 基于 **Python 2** 编写，用于将模组源码编译为游戏可识别的数据文件（如 `item_kinds.txt`、`troops.txt`、`party_templates.txt` 等）。  
 本移植版在 **保持原版逻辑与输出完全一致** 的前提下，将整个代码库升级至 Python 3，并充分利用 Python 3 的新特性，为模组开发者提供更现代、更高效、更可靠的开发环境。
 
@@ -53,7 +53,7 @@
 ## 📦 安装与使用
 
 ### 系统要求
-- **Python 3.8 及以上**（推荐 Python 3.10+，任意操作系统均可）
+- **Python3 即可**（推荐 Python 3.10+，任意操作系统均可）
 
 ### 快速上手
 
